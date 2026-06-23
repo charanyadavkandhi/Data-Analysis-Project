@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates data analysis and visualization techniques using Python. Various charts and plots were created to analyze student marks and identify performance patterns.
+This project demonstrates data analysis and visualization using Python. The dataset contains student marks, and various visualization techniques are used to identify trends, compare performance, and generate insights.
 
 ## Technologies Used
 
@@ -11,9 +11,24 @@ This project demonstrates data analysis and visualization techniques using Pytho
 * NumPy
 * Matplotlib
 
-## Dataset
+## Project Files
 
-The dataset contains marks obtained by students in a subject.
+```text
+Data-Analysis-Project/
+│
+├── screenshots/
+│   ├── bar_chart.png
+│   ├── heatmap.png
+│   └── scatter_plot.png
+│
+├── data_analysis_matrix_tool.py
+├── students.csv
+├── Data_Analysis_Report.pdf
+├── Data_Analysis_Report.docx
+└── README.md
+```
+
+## Dataset
 
 | Student | Marks |
 | ------- | ----- |
@@ -27,23 +42,23 @@ The dataset contains marks obtained by students in a subject.
 
 ### Bar Chart of Student Marks
 
-![Bar Chart](images/bar_chart.png)
+![Bar Chart](screenshots/bar_chart.png)
 
-**Observation:** Priya scored the highest marks (92), while Anil scored the lowest (67).
+**Observation:** Priya scored the highest marks (92), while Anil scored the lowest marks (67).
 
 ---
 
 ### Heatmap of Student Marks
 
-![Heatmap](images/heatmap.png)
+![Heatmap](screenshots/heatmap.png)
 
-**Observation:** The heatmap visually highlights score variations, making high and low performers easy to identify.
+**Observation:** The heatmap highlights score variations and helps identify high and low performers.
 
 ---
 
 ### Scatter Plot of Student Marks
 
-![Scatter Plot](images/scatter_plot.png)
+![Scatter Plot](screenshots/scatter_plot.png)
 
 **Observation:** The scatter plot clearly shows the distribution of marks among students and highlights performance differences.
 
@@ -51,17 +66,41 @@ The dataset contains marks obtained by students in a subject.
 
 ## Key Insights
 
-* Priya achieved the highest score.
+* Priya achieved the highest score (92).
 * Sneha and Charan also performed well with scores above 80.
-* Anil's score is significantly lower than the class average.
-* Visualizations help identify trends and performance patterns quickly.
+* Rahul scored close to the class average.
+* Anil scored the lowest marks among the students.
+* Visualizations provide an effective way to understand performance trends.
 
-## Conclusion
+## Results
 
-This project demonstrates fundamental data analysis and visualization techniques using Python. Various graphical representations were used to transform raw data into meaningful insights.
+* Successfully analyzed student performance data.
+* Created multiple visualizations using Matplotlib.
+* Generated meaningful insights from the dataset.
+* Demonstrated data analysis and reporting techniques using Python.
+
+## How to Run
+
+```bash
+git clone https://github.com/charanyadavkandhi/Data-Analysis-Project.git
+
+cd Data-Analysis-Project
+
+pip install pandas numpy matplotlib
+
+python data_analysis_matrix_tool.py
+```
+
+## Future Improvements
+
+* Add more datasets for analysis.
+* Create interactive dashboards using Plotly or Streamlit.
+* Include statistical analysis and predictive modeling.
+* Enhance visualizations with additional chart types.
 
 ## Author
 
-Kandhi Charan Yadav
+**Kandhi Charan Yadav**
 
-GitHub: https://github.com/charanyadavkandhi
+* GitHub: https://github.com/charanyadavkandhi
+* LinkedIn: https://www.linkedin.com/in/kandhicharanyadav/
